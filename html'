@@ -1,0 +1,27 @@
+job_profiles = {
+    "Frontend Developer": ["JavaScript", "HTML", "CSS", "React"],
+    "Backend Developer": ["Python", "Java", "Node.js", "Ruby"],
+    "Data Scientist": ["Python", "R", "SQL"],
+    "Mobile Developer": ["Swift", "Kotlin", "Java"],
+    "DevOps Engineer": ["Python", "Bash", "Go", "Docker", "Kubernetes"],
+}
+
+# Define the skills required for each language
+skills = {
+    "JavaScript": ["Variables", "Functions", "DOM Manipulation", "Asynchronous Programming"],
+    "Python": ["Data Types", "OOP", "Libraries (NumPy, Pandas)", "Machine Learning Basics"],
+    "Java": ["Syntax", "OOP", "Concurrency", "Spring Framework"],
+    "React": ["Components", "Hooks", "State Management", "Routing"],
+    "SQL": ["CRUD Operations", "Joins", "Subqueries", "Database Design"],
+}
+
+# Define learning resources for each skill
+learning_resources = {
+    "JavaScript": {
+        "Variables": ["JavaScript Info", "MDN Web Docs"],
+        "Functions": ["Eloquent JavaScript", "FreeCodeCamp"],
+    },
+    "Python": {
+        "Data Types": ["Python Docs", "W3Schools"],
+        "OOP": ["Real Python", "Codecademy"],
+    },
